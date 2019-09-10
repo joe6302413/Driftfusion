@@ -557,7 +557,6 @@ if par.figson == 1
                 else
                     xlim([Vapp_arr(end), Vapp_arr(1)])
                 end
-                
                 %                 % delta srh
                 %                 figure(62)
                 %                 semilogy(Vapp_arr, (Usrh_bulk-Usrh_bulk(1)), Vapp_arr, (Usrh_int1-Usrh_int1(1)), Vapp_arr, (Usrh_int2-Usrh_int2(1)))
